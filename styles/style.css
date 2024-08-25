@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-primario: #040D12;
+    --color-secundario: #183D3D;
+    --color-terciario: #5C8374;
+    --color-cuaternario: #93B1A6;
+}
+
+body {
+    background-color: var(--color-primario);
+    color: var(--color-cuaternario);
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 4% 0% 6% 2%;
+}
+
+.header__imagen {
+    width: 10%;
+}
+    
+.contenido {
+    padding: 0% 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenido__lectura {
+    padding: 0% 10%; 
+}
+
+.contenido__lectura__texto {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.contenido__lectura__aviso {
+    padding: 200% 0% ;
+}

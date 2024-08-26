@@ -28,7 +28,7 @@ body {
     padding: 0% 25%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .contenido__lectura {
@@ -41,5 +41,5 @@ body {
 }
 
 .contenido__lectura__aviso {
-    padding: 200% 0% ;
+    padding: 20% 10% ;
 }

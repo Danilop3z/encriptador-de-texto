@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-    padding: 4% 0% 2% 2%;
+    padding: 3% 0% 2% 2%;
 }
 
 .header__imagen {
@@ -40,13 +40,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 70dvh;
 }
 
 .contenido__imput__texto {
     width: 85%;
     border-color: transparent;
-    height: 50dvh;
     outline: none;
     background: transparent;
     font-size: 2rem;
@@ -57,15 +55,15 @@ body {
 .contenido__acciones {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 }
 
 .contenido__lectura__aviso {
     display: flex;
     align-items: center;
     gap: 12px;
-    font-size: 20px;
-    margin-bottom: 16px;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
 }
 
 .boton {
@@ -73,10 +71,9 @@ body {
     color: var(--color-cuaternario);
     font-size: 1rem;
     font-weight: 600;
-    padding: 0,625rem 1,25rem;
-    width: 45%;
-    height: 110%;
-    border-radius: 24px;
+    width: 43%;
+    padding: 1.3rem 0;
+    border-radius: 1.5rem;
     border: 1px solid var(--color-terciario);
 }
 .boton:hover{
@@ -94,9 +91,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 100px;
-    height: 73dvh;
-    border-radius: 32px;
+    gap: 40px;
+    padding: 4% 0% 3%;
+    border-radius: 2rem;
     width: 30%;
     box-shadow: 0px 0px 4px 1px;
 }
@@ -115,17 +112,14 @@ body {
         margin-left: 11%;
     }
     .contenido__lectura {
-        height: 60dvh;
+
     }
     .imagen__muñeco{
         display: none;
     }
     .respuesta {
-        gap: 0px;
-        width: 91%;
-        height: 20dvh;
-        justify-content: center;
-        margin-top: 100px;
+        width: 87%;
+        margin-top: 1rem;
     }
     .header__imagen{
         width: 13%;
@@ -134,24 +128,21 @@ body {
 
 @media (max-width: 500px) {
     .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-right: 7%;
         gap: 10px;
     }
-    .contenido__lectura{
-        height: 70dvh;
+    .contenido__imput__texto {
+        width: ;
     }
+    
     .boton {
         width: 90%;
-        height: 7dvh;
+
     }
     .header__imagen{
         width: 30%;
     }
     .respuesta {
-        height: 18dvh;
+    
         width: 91%;
         margin-top: 30px;
     }

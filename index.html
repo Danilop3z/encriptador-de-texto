@@ -12,23 +12,26 @@
         </header>
         <main class="contenido">
             <section class="contenido__lectura">
-                <textarea class="contenido__imput__texto" rows="10" cols="40">
-                    Ingrese el texto aqui</textarea>
-                <p class="contenido__lectura__aviso">
-                    Solo letras minúsculas y sin acentos
-                </p>
+                <textarea class="contenido__imput__texto" name="mensaje" id
+                rows="10" cols="40" 
+                    placeholder="Ingrese el texto aqui">
+                </textarea>
+
+                <div class="container">
                     <div class="contenido__acciones">
-                        <p>Encriptar</p>
-                        <p>Desencriptar</p>
-                    </div>
+                        <div class="contenido__lectura__aviso"><img src="./assets/bi_exclamation-circle-fillicon.png">
+                            Solo letras minúsculas y sin acentos</div>
+                        </div>
+                            <input class="boton" type="submit" value="Encriptar">
+                            <input class="boton boton--secundary" type="submit" value="Desencriptar">
+                </div>
             </section>
             <aside class="respuesta">
-                <img class="respuesta__imagen" src="./assets/Muñeco.png" alt="Imagen de inicio">
-                <h2 class="respuesta__subtitulo">
-                    Ningún mensaje fue encontrado</h2>
-                <p class="respuesta__texto">
-                    Ingresa el texto que desees encriptar o desencriptar.
-                </p>    
+                <img src="./assets/Muñeco.png" alt="Muñequito" class="imagen__muñeco">
+                <div class="respuesta__mensaje">
+                    <h3 class="respuesta__titulo">Ningún mensaje fue encontrado</h3>
+                    <p class="respuesta__texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
             </aside>
         </main>
     </body>
